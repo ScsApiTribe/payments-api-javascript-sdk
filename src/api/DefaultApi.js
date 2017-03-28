@@ -25,18 +25,18 @@
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['ApiClient', 'model/PaymentRequest', 'model/Error', 'model/PaymentStatus', 'model/PaymentDetails', 'model/PaymentsCollection'], factory);
+    define(['ApiClient', 'model/PaymentRequest', 'model/PaymentStatus', 'model/Error', 'model/PaymentDetails', 'model/PaymentsCollection'], factory);
   } else if (typeof module === 'object' && module.exports) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('../ApiClient'), require('../model/PaymentRequest'), require('../model/Error'), require('../model/PaymentStatus'), require('../model/PaymentDetails'), require('../model/PaymentsCollection'));
+    module.exports = factory(require('../ApiClient'), require('../model/PaymentRequest'), require('../model/PaymentStatus'), require('../model/Error'), require('../model/PaymentDetails'), require('../model/PaymentsCollection'));
   } else {
     // Browser globals (root is window)
     if (!root.Payments) {
       root.Payments = {};
     }
-    root.Payments.DefaultApi = factory(root.Payments.ApiClient, root.Payments.PaymentRequest, root.Payments.Error, root.Payments.PaymentStatus, root.Payments.PaymentDetails, root.Payments.PaymentsCollection);
+    root.Payments.DefaultApi = factory(root.Payments.ApiClient, root.Payments.PaymentRequest, root.Payments.PaymentStatus, root.Payments.Error, root.Payments.PaymentDetails, root.Payments.PaymentsCollection);
   }
-}(this, function(ApiClient, PaymentRequest, Error, PaymentStatus, PaymentDetails, PaymentsCollection) {
+}(this, function(ApiClient, PaymentRequest, PaymentStatus, Error, PaymentDetails, PaymentsCollection) {
   'use strict';
 
   /**
@@ -99,7 +99,7 @@
       var formParams = {
       };
 
-      var authNames = ['oauth_2_0_authorization_code', 'oauth_2_0_client_credentials'];
+      var authNames = ['oauth_2_0_client_credentials', 'oauth_2_0_authorization_code'];
       var contentTypes = ['application/json; charset=ISO-8859-1'];
       var accepts = ['application/json'];
       var returnType = PaymentStatus;
@@ -155,7 +155,7 @@
       var formParams = {
       };
 
-      var authNames = ['oauth_2_0_authorization_code', 'oauth_2_0_client_credentials'];
+      var authNames = ['oauth_2_0_client_credentials', 'oauth_2_0_authorization_code'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = PaymentDetails;
@@ -215,7 +215,7 @@
       var formParams = {
       };
 
-      var authNames = ['oauth_2_0_authorization_code', 'oauth_2_0_client_credentials'];
+      var authNames = ['oauth_2_0_client_credentials', 'oauth_2_0_authorization_code'];
       var contentTypes = ['application/json'];
       var accepts = ['application/json'];
       var returnType = PaymentsCollection;
