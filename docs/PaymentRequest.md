@@ -1,4 +1,4 @@
-# Payments.PaymentRequest
+# PaymentsJavascriptSdk.PaymentRequest
 
 ## Properties
 Name | Type | Description | Notes

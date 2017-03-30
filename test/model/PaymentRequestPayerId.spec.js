@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.Payments);
+    factory(root.expect, root.PaymentsJavascriptSdk);
   }
-}(this, function(expect, Payments) {
+}(this, function(expect, PaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new Payments.PaymentRequestPayerId();
+    instance = new PaymentsJavascriptSdk.PaymentRequestPayerId();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,25 +61,25 @@
   describe('PaymentRequestPayerId', function() {
     it('should create an instance of PaymentRequestPayerId', function() {
       // uncomment below and update the code to test PaymentRequestPayerId
-      //var instane = new Payments.PaymentRequestPayerId();
-      //expect(instance).to.be.a(Payments.PaymentRequestPayerId);
+      //var instane = new PaymentsJavascriptSdk.PaymentRequestPayerId();
+      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentRequestPayerId);
     });
 
     it('should have the property billingProfile (base name: "billingProfile")', function() {
       // uncomment below and update the code to test the property billingProfile
-      //var instane = new Payments.PaymentRequestPayerId();
+      //var instane = new PaymentsJavascriptSdk.PaymentRequestPayerId();
       //expect(instance).to.be();
     });
 
     it('should have the property preferredProductType (base name: "preferredProductType")', function() {
       // uncomment below and update the code to test the property preferredProductType
-      //var instane = new Payments.PaymentRequestPayerId();
+      //var instane = new PaymentsJavascriptSdk.PaymentRequestPayerId();
       //expect(instance).to.be();
     });
 
     it('should have the property scn (base name: "scn")', function() {
       // uncomment below and update the code to test the property scn
-      //var instane = new Payments.PaymentRequestPayerId();
+      //var instane = new PaymentsJavascriptSdk.PaymentRequestPayerId();
       //expect(instance).to.be();
     });
 

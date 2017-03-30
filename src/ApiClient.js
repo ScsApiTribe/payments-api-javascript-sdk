@@ -31,10 +31,10 @@
     module.exports = factory(require('superagent'));
   } else {
     // Browser globals (root is window)
-    if (!root.Payments) {
-      root.Payments = {};
+    if (!root.PaymentsJavascriptSdk) {
+      root.PaymentsJavascriptSdk = {};
     }
-    root.Payments.ApiClient = factory(root.superagent);
+    root.PaymentsJavascriptSdk.ApiClient = factory(root.superagent);
   }
 }(this, function(superagent) {
   'use strict';

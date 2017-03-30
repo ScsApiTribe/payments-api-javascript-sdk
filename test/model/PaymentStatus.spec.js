@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.Payments);
+    factory(root.expect, root.PaymentsJavascriptSdk);
   }
-}(this, function(expect, Payments) {
+}(this, function(expect, PaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new Payments.PaymentStatus();
+    instance = new PaymentsJavascriptSdk.PaymentStatus();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,13 +61,13 @@
   describe('PaymentStatus', function() {
     it('should create an instance of PaymentStatus', function() {
       // uncomment below and update the code to test PaymentStatus
-      //var instane = new Payments.PaymentStatus();
-      //expect(instance).to.be.a(Payments.PaymentStatus);
+      //var instane = new PaymentsJavascriptSdk.PaymentStatus();
+      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentStatus);
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new Payments.PaymentStatus();
+      //var instane = new PaymentsJavascriptSdk.PaymentStatus();
       //expect(instance).to.be();
     });
 

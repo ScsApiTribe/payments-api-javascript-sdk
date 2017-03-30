@@ -1,4 +1,4 @@
-# Payments.PaymentRequestPayerId
+# PaymentsJavascriptSdk.PaymentRequestPayerId
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# Payments.PaymentsCollection
+# PaymentsJavascriptSdk.PaymentsCollection
 
 ## Properties
 Name | Type | Description | Notes

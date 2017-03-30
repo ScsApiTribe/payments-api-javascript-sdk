@@ -1,4 +1,4 @@
-# Payments.Error
+# PaymentsJavascriptSdk.Error
 
 ## Properties
 Name | Type | Description | Notes

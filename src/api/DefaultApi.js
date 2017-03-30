@@ -31,10 +31,10 @@
     module.exports = factory(require('../ApiClient'), require('../model/PaymentRequest'), require('../model/Error'), require('../model/PaymentStatus'), require('../model/PaymentDetails'), require('../model/PaymentsCollection'));
   } else {
     // Browser globals (root is window)
-    if (!root.Payments) {
-      root.Payments = {};
+    if (!root.PaymentsJavascriptSdk) {
+      root.PaymentsJavascriptSdk = {};
     }
-    root.Payments.DefaultApi = factory(root.Payments.ApiClient, root.Payments.PaymentRequest, root.Payments.Error, root.Payments.PaymentStatus, root.Payments.PaymentDetails, root.Payments.PaymentsCollection);
+    root.PaymentsJavascriptSdk.DefaultApi = factory(root.PaymentsJavascriptSdk.ApiClient, root.PaymentsJavascriptSdk.PaymentRequest, root.PaymentsJavascriptSdk.Error, root.PaymentsJavascriptSdk.PaymentStatus, root.PaymentsJavascriptSdk.PaymentDetails, root.PaymentsJavascriptSdk.PaymentsCollection);
   }
 }(this, function(ApiClient, PaymentRequest, Error, PaymentStatus, PaymentDetails, PaymentsCollection) {
   'use strict';

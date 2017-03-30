@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.Payments);
+    factory(root.expect, root.PaymentsJavascriptSdk);
   }
-}(this, function(expect, Payments) {
+}(this, function(expect, PaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new Payments.PaymentDetails();
+    instance = new PaymentsJavascriptSdk.PaymentDetails();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,43 +61,43 @@
   describe('PaymentDetails', function() {
     it('should create an instance of PaymentDetails', function() {
       // uncomment below and update the code to test PaymentDetails
-      //var instane = new Payments.PaymentDetails();
-      //expect(instance).to.be.a(Payments.PaymentDetails);
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentDetails);
     });
 
     it('should have the property amount (base name: "amount")', function() {
       // uncomment below and update the code to test the property amount
-      //var instane = new Payments.PaymentDetails();
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instane = new Payments.PaymentDetails();
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new Payments.PaymentDetails();
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property idempotencyKey (base name: "idempotencyKey")', function() {
       // uncomment below and update the code to test the property idempotencyKey
-      //var instane = new Payments.PaymentDetails();
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property paymentStatus (base name: "paymentStatus")', function() {
       // uncomment below and update the code to test the property paymentStatus
-      //var instane = new Payments.PaymentDetails();
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property paymentStatusDetails (base name: "paymentStatusDetails")', function() {
       // uncomment below and update the code to test the property paymentStatusDetails
-      //var instane = new Payments.PaymentDetails();
+      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 

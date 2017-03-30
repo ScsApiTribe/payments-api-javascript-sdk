@@ -31,10 +31,10 @@
     module.exports = factory(require('../ApiClient'));
   } else {
     // Browser globals (root is window)
-    if (!root.Payments) {
-      root.Payments = {};
+    if (!root.PaymentsJavascriptSdk) {
+      root.PaymentsJavascriptSdk = {};
     }
-    root.Payments.PaymentRequestPayerId = factory(root.Payments.ApiClient);
+    root.PaymentsJavascriptSdk.PaymentRequestPayerId = factory(root.PaymentsJavascriptSdk.ApiClient);
   }
 }(this, function(ApiClient) {
   'use strict';

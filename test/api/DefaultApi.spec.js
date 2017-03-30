@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.Payments);
+    factory(root.expect, root.PaymentsJavascriptSdk);
   }
-}(this, function(expect, Payments) {
+}(this, function(expect, PaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new Payments.DefaultApi();
+    instance = new PaymentsJavascriptSdk.DefaultApi();
   });
 
   var getProperty = function(object, getter, property) {

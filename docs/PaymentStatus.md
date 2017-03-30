@@ -1,4 +1,4 @@
-# Payments.PaymentStatus
+# PaymentsJavascriptSdk.PaymentStatus
 
 ## Properties
 Name | Type | Description | Notes

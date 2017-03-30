@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.Payments);
+    factory(root.expect, root.PaymentsJavascriptSdk);
   }
-}(this, function(expect, Payments) {
+}(this, function(expect, PaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new Payments.PaymentsCollection();
+    instance = new PaymentsJavascriptSdk.PaymentsCollection();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,8 +61,8 @@
   describe('PaymentsCollection', function() {
     it('should create an instance of PaymentsCollection', function() {
       // uncomment below and update the code to test PaymentsCollection
-      //var instane = new Payments.PaymentsCollection();
-      //expect(instance).to.be.a(Payments.PaymentsCollection);
+      //var instane = new PaymentsJavascriptSdk.PaymentsCollection();
+      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentsCollection);
     });
 
   });

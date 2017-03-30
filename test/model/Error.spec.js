@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.Payments);
+    factory(root.expect, root.PaymentsJavascriptSdk);
   }
-}(this, function(expect, Payments) {
+}(this, function(expect, PaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new Payments.Error();
+    instance = new PaymentsJavascriptSdk.Error();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,37 +61,37 @@
   describe('Error', function() {
     it('should create an instance of Error', function() {
       // uncomment below and update the code to test Error
-      //var instane = new Payments.Error();
-      //expect(instance).to.be.a(Payments.Error);
+      //var instane = new PaymentsJavascriptSdk.Error();
+      //expect(instance).to.be.a(PaymentsJavascriptSdk.Error);
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new Payments.Error();
+      //var instane = new PaymentsJavascriptSdk.Error();
       //expect(instance).to.be();
     });
 
     it('should have the property detail (base name: "detail")', function() {
       // uncomment below and update the code to test the property detail
-      //var instane = new Payments.Error();
+      //var instane = new PaymentsJavascriptSdk.Error();
       //expect(instance).to.be();
     });
 
     it('should have the property message (base name: "message")', function() {
       // uncomment below and update the code to test the property message
-      //var instane = new Payments.Error();
+      //var instane = new PaymentsJavascriptSdk.Error();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new Payments.Error();
+      //var instane = new PaymentsJavascriptSdk.Error();
       //expect(instance).to.be();
     });
 
     it('should have the property uuid (base name: "uuid")', function() {
       // uncomment below and update the code to test the property uuid
-      //var instane = new Payments.Error();
+      //var instane = new PaymentsJavascriptSdk.Error();
       //expect(instance).to.be();
     });
 
