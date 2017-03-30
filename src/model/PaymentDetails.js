@@ -45,7 +45,7 @@
   /**
    * The PaymentDetails model module.
    * @module model/PaymentDetails
-   * @version 5.0.0
+   * @version 5.0.14
    */
 
   /**
