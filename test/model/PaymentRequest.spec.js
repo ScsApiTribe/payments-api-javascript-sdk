@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PaymentsJavascriptSdk);
+    factory(root.expect, root.SwisscomPaymentsJavascriptSdk);
   }
-}(this, function(expect, PaymentsJavascriptSdk) {
+}(this, function(expect, SwisscomPaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PaymentsJavascriptSdk.PaymentRequest();
+    instance = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,37 +61,37 @@
   describe('PaymentRequest', function() {
     it('should create an instance of PaymentRequest', function() {
       // uncomment below and update the code to test PaymentRequest
-      //var instane = new PaymentsJavascriptSdk.PaymentRequest();
-      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentRequest);
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
+      //expect(instance).to.be.a(SwisscomPaymentsJavascriptSdk.PaymentRequest);
     });
 
     it('should have the property amount (base name: "amount")', function() {
       // uncomment below and update the code to test the property amount
-      //var instane = new PaymentsJavascriptSdk.PaymentRequest();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instane = new PaymentsJavascriptSdk.PaymentRequest();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property idempotencyKey (base name: "idempotencyKey")', function() {
       // uncomment below and update the code to test the property idempotencyKey
-      //var instane = new PaymentsJavascriptSdk.PaymentRequest();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property payerId (base name: "payerId")', function() {
       // uncomment below and update the code to test the property payerId
-      //var instane = new PaymentsJavascriptSdk.PaymentRequest();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property taxRate (base name: "taxRate")', function() {
       // uncomment below and update the code to test the property taxRate
-      //var instane = new PaymentsJavascriptSdk.PaymentRequest();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentRequest();
       //expect(instance).to.be();
     });
 

@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PaymentsJavascriptSdk);
+    factory(root.expect, root.SwisscomPaymentsJavascriptSdk);
   }
-}(this, function(expect, PaymentsJavascriptSdk) {
+}(this, function(expect, SwisscomPaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PaymentsJavascriptSdk.DefaultApi();
+    instance = new SwisscomPaymentsJavascriptSdk.DefaultApi();
   });
 
   var getProperty = function(object, getter, property) {

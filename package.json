@@ -1,6 +1,6 @@
 {
-  "name": "payments_javascript_sdk",
-  "version": "5.0.15",
+  "name": "swisscom_payments_javascript_sdk",
+  "version": "5.0.16",
   "description": "ERROR_UNKNOWN",
   "license": "Apache-2.0",
   "main": "src/index.js",

@@ -1,4 +1,4 @@
-# PaymentsJavascriptSdk.PaymentRequest
+# SwisscomPaymentsJavascriptSdk.PaymentRequest
 
 ## Properties
 Name | Type | Description | Notes

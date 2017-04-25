@@ -31,10 +31,10 @@
     module.exports = factory(require('../ApiClient'));
   } else {
     // Browser globals (root is window)
-    if (!root.PaymentsJavascriptSdk) {
-      root.PaymentsJavascriptSdk = {};
+    if (!root.SwisscomPaymentsJavascriptSdk) {
+      root.SwisscomPaymentsJavascriptSdk = {};
     }
-    root.PaymentsJavascriptSdk.PaymentsCollection = factory(root.PaymentsJavascriptSdk.ApiClient);
+    root.SwisscomPaymentsJavascriptSdk.PaymentsCollection = factory(root.SwisscomPaymentsJavascriptSdk.ApiClient);
   }
 }(this, function(ApiClient) {
   'use strict';
@@ -45,7 +45,7 @@
   /**
    * The PaymentsCollection model module.
    * @module model/PaymentsCollection
-   * @version 5.0.15
+   * @version 5.0.16
    */
 
   /**

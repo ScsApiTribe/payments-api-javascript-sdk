@@ -1,4 +1,4 @@
-# PaymentsJavascriptSdk.PaymentRequestPayerId
+# SwisscomPaymentsJavascriptSdk.PaymentRequestPayerId
 
 ## Properties
 Name | Type | Description | Notes

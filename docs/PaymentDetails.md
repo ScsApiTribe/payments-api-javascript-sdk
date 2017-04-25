@@ -1,4 +1,4 @@
-# PaymentsJavascriptSdk.PaymentDetails
+# SwisscomPaymentsJavascriptSdk.PaymentDetails
 
 ## Properties
 Name | Type | Description | Notes

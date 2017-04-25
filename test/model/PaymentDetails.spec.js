@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PaymentsJavascriptSdk);
+    factory(root.expect, root.SwisscomPaymentsJavascriptSdk);
   }
-}(this, function(expect, PaymentsJavascriptSdk) {
+}(this, function(expect, SwisscomPaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PaymentsJavascriptSdk.PaymentDetails();
+    instance = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,43 +61,43 @@
   describe('PaymentDetails', function() {
     it('should create an instance of PaymentDetails', function() {
       // uncomment below and update the code to test PaymentDetails
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
-      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentDetails);
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
+      //expect(instance).to.be.a(SwisscomPaymentsJavascriptSdk.PaymentDetails);
     });
 
     it('should have the property amount (base name: "amount")', function() {
       // uncomment below and update the code to test the property amount
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property idempotencyKey (base name: "idempotencyKey")', function() {
       // uncomment below and update the code to test the property idempotencyKey
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property paymentStatus (base name: "paymentStatus")', function() {
       // uncomment below and update the code to test the property paymentStatus
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 
     it('should have the property paymentStatusDetails (base name: "paymentStatusDetails")', function() {
       // uncomment below and update the code to test the property paymentStatusDetails
-      //var instane = new PaymentsJavascriptSdk.PaymentDetails();
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentDetails();
       //expect(instance).to.be();
     });
 

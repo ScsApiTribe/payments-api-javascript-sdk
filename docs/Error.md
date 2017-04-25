@@ -1,4 +1,4 @@
-# PaymentsJavascriptSdk.Error
+# SwisscomPaymentsJavascriptSdk.Error
 
 ## Properties
 Name | Type | Description | Notes

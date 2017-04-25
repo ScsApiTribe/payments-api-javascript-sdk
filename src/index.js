@@ -39,9 +39,9 @@
    * <p>
    * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
    * <pre>
-   * var PaymentsJavascriptSdk = require('index'); // See note below*.
-   * var xxxSvc = new PaymentsJavascriptSdk.XxxApi(); // Allocate the API class we're going to use.
-   * var yyyModel = new PaymentsJavascriptSdk.Yyy(); // Construct a model instance.
+   * var SwisscomPaymentsJavascriptSdk = require('index'); // See note below*.
+   * var xxxSvc = new SwisscomPaymentsJavascriptSdk.XxxApi(); // Allocate the API class we're going to use.
+   * var yyyModel = new SwisscomPaymentsJavascriptSdk.Yyy(); // Construct a model instance.
    * yyyModel.someProperty = 'someValue';
    * ...
    * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -53,8 +53,8 @@
    * <p>
    * A non-AMD browser application (discouraged) might do something like this:
    * <pre>
-   * var xxxSvc = new PaymentsJavascriptSdk.XxxApi(); // Allocate the API class we're going to use.
-   * var yyy = new PaymentsJavascriptSdk.Yyy(); // Construct a model instance.
+   * var xxxSvc = new SwisscomPaymentsJavascriptSdk.XxxApi(); // Allocate the API class we're going to use.
+   * var yyy = new SwisscomPaymentsJavascriptSdk.Yyy(); // Construct a model instance.
    * yyyModel.someProperty = 'someValue';
    * ...
    * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -62,7 +62,7 @@
    * </pre>
    * </p>
    * @module index
-   * @version 5.0.15
+   * @version 5.0.16
    */
   var exports = {
     /**

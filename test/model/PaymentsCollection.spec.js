@@ -31,15 +31,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PaymentsJavascriptSdk);
+    factory(root.expect, root.SwisscomPaymentsJavascriptSdk);
   }
-}(this, function(expect, PaymentsJavascriptSdk) {
+}(this, function(expect, SwisscomPaymentsJavascriptSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PaymentsJavascriptSdk.PaymentsCollection();
+    instance = new SwisscomPaymentsJavascriptSdk.PaymentsCollection();
   });
 
   var getProperty = function(object, getter, property) {
@@ -61,8 +61,8 @@
   describe('PaymentsCollection', function() {
     it('should create an instance of PaymentsCollection', function() {
       // uncomment below and update the code to test PaymentsCollection
-      //var instane = new PaymentsJavascriptSdk.PaymentsCollection();
-      //expect(instance).to.be.a(PaymentsJavascriptSdk.PaymentsCollection);
+      //var instane = new SwisscomPaymentsJavascriptSdk.PaymentsCollection();
+      //expect(instance).to.be.a(SwisscomPaymentsJavascriptSdk.PaymentsCollection);
     });
 
   });

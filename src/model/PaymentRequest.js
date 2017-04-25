@@ -31,10 +31,10 @@
     module.exports = factory(require('../ApiClient'), require('./PaymentRequestPayerId'));
   } else {
     // Browser globals (root is window)
-    if (!root.PaymentsJavascriptSdk) {
-      root.PaymentsJavascriptSdk = {};
+    if (!root.SwisscomPaymentsJavascriptSdk) {
+      root.SwisscomPaymentsJavascriptSdk = {};
     }
-    root.PaymentsJavascriptSdk.PaymentRequest = factory(root.PaymentsJavascriptSdk.ApiClient, root.PaymentsJavascriptSdk.PaymentRequestPayerId);
+    root.SwisscomPaymentsJavascriptSdk.PaymentRequest = factory(root.SwisscomPaymentsJavascriptSdk.ApiClient, root.SwisscomPaymentsJavascriptSdk.PaymentRequestPayerId);
   }
 }(this, function(ApiClient, PaymentRequestPayerId) {
   'use strict';
@@ -45,7 +45,7 @@
   /**
    * The PaymentRequest model module.
    * @module model/PaymentRequest
-   * @version 5.0.15
+   * @version 5.0.16
    */
 
   /**

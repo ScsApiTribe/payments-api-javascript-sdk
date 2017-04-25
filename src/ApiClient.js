@@ -31,17 +31,17 @@
     module.exports = factory(require('superagent'));
   } else {
     // Browser globals (root is window)
-    if (!root.PaymentsJavascriptSdk) {
-      root.PaymentsJavascriptSdk = {};
+    if (!root.SwisscomPaymentsJavascriptSdk) {
+      root.SwisscomPaymentsJavascriptSdk = {};
     }
-    root.PaymentsJavascriptSdk.ApiClient = factory(root.superagent);
+    root.SwisscomPaymentsJavascriptSdk.ApiClient = factory(root.superagent);
   }
 }(this, function(superagent) {
   'use strict';
 
   /**
    * @module ApiClient
-   * @version 5.0.15
+   * @version 5.0.16
    */
 
   /**
