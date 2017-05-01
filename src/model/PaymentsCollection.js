@@ -45,7 +45,7 @@
   /**
    * The PaymentsCollection model module.
    * @module model/PaymentsCollection
-   * @version 5.0.16
+   * @version 5.0.17
    */
 
   /**

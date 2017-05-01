@@ -45,7 +45,7 @@
   /**
    * The PaymentStatus model module.
    * @module model/PaymentStatus
-   * @version 5.0.16
+   * @version 5.0.17
    */
 
   /**
